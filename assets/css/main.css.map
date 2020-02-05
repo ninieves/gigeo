@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAAA,MAAM;EACF,KAAK,EAAE,KAAK;EACZ,MAAM,EAAE,KAAK;EACb,gBAAgB,EAAE,IAAI;EACtB,OAAO,EAAE,IAAI;EACb,WAAW,EAAE,MAAM;EACnB,cAAc,EAAE,MAAM;;ACN1B,MAAM;EACF,KAAK,EAAE,KAAK;EACZ,OAAO,EAAE,IAAI;;AAFjB,MAAM;EACF,KAAK,EAAE,KAAK;EACZ,OAAO,EAAE,IAAI",
+"sources": ["../sass/componets/_header.scss","../sass/componets/_buttons.scss"],
+"names": [],
+"file": "main.css"
+}

@@ -1,0 +1,31 @@
+@import 'componets/header';
+@import 'componets/buttons';
+@import 'abstracts/variables.scss';
+@import 'abstracts/functions.scss';
+@import 'abstracts/mixins.scss';
+@import 'abstracts/placeholders.scss';
+
+@import 'vendors/bootstrap.scss';
+@import 'vendors/jquery-ui.scss';
+
+@import 'base/reset.scss';
+@import 'base/typography.scss';
+
+@import 'layout/navigation.scss';
+@import 'layout/grid.scss';
+@import 'layout/header.scss';
+@import 'layout/footer.scss';
+@import 'layout/sidebar.scss';
+@import 'layout/forms.scss';
+
+@import 'componets/buttons';
+@import 'componets/carousel.scss';
+@import 'componets/cover.scss';
+@import 'componets/dropdown.scss';
+
+@import 'pages/home.scss';
+@import 'pages/contact.scss';
+
+@import 'themes/theme.scss';
+@import 'themes/admin.scss';
+
