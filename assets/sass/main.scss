@@ -1,31 +1,31 @@
-@import 'componets/header';
-@import 'componets/buttons';
-@import 'abstracts/variables.scss';
-@import 'abstracts/functions.scss';
-@import 'abstracts/mixins.scss';
-@import 'abstracts/placeholders.scss';
 
-@import 'vendors/bootstrap.scss';
-@import 'vendors/jquery-ui.scss';
+@import 'abstracts/_variables.scss';
+@import 'abstracts/_functions.scss';
+@import 'abstracts/_mixins.scss';
+@import 'abstracts/_placeholders.scss';
+@import 'abstracts/_main_section.scss';
 
-@import 'base/reset.scss';
-@import 'base/typography.scss';
+@import 'vendors/_bootstrap.scss';
+@import 'vendors/_jquery-ui.scss';
 
-@import 'layout/navigation.scss';
-@import 'layout/grid.scss';
-@import 'layout/header.scss';
-@import 'layout/footer.scss';
-@import 'layout/sidebar.scss';
-@import 'layout/forms.scss';
+@import 'base/_reset.scss';
+@import 'base/_typography.scss';
 
-@import 'componets/buttons';
-@import 'componets/carousel.scss';
-@import 'componets/cover.scss';
-@import 'componets/dropdown.scss';
+@import 'layout/_navigation.scss';
+@import 'layout/_grid.scss';
+@import 'layout/_header.scss';
+@import 'layout/_footer.scss';
+@import 'layout/_sidebar.scss';
+@import 'layout/_forms.scss';
 
-@import 'pages/home.scss';
-@import 'pages/contact.scss';
+@import 'componets/_buttons';
+@import 'componets/_carousel.scss';
+@import 'componets/_cover.scss';
+@import 'componets/_dropdown.scss';
 
-@import 'themes/theme.scss';
-@import 'themes/admin.scss';
+@import 'pages/_home.scss';
+@import 'pages/_contact.scss';
+
+@import 'themes/_theme.scss';
+@import 'themes/_admin.scss';
 

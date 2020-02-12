@@ -1,0 +1,61 @@
+.bg_hero{
+    background-image: url(../img/image-banner.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 250px;
+}
+.autor__datos{
+   display: flex;
+   justify-content: center;
+   padding: 5px 0;
+    
+}
+.autor__datos-foto{
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+    margin: 5px;
+}
+
+.autor__datos-texto{
+    display: inherit;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.autor__datos-nombre, .autor__datos-bajada{
+    margin-bottom: 0;
+}
+
+
+
+
+
+.btn{
+    position: absolute;
+}
+
+hr{
+    height: 2px;
+    background-color: rgb(92, 91, 91);
+}
+
+@media (min-width: 992px) { 
+    .autor__datos{
+        display: flex;
+        justify-content: flex-start;
+        text-align: left;
+        margin-left: 80px;
+    .botones{
+        margin-left: auto;
+        padding-right: 100px;
+        padding-top: 40px;
+        
+    .autor{
+        justify-content: space-between;
+    }
+    }    
+    }
+    
+}

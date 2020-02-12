@@ -1,0 +1,121 @@
+@charset "UTF-8";
+/*tamaño de tipografia*/
+/*open sans*/
+.video {
+  width: 100%;
+  height: 150px;
+  margin: auto; }
+
+.container {
+  margin: auto; }
+
+.nav-link {
+  color: black; }
+
+.nav_contenedor {
+  display: flex;
+  justify-content: center;
+  position: relative; }
+
+.nav__logo {
+  font-family: "Futura-Normal", arial;
+  font-weight: 400;
+  font-size: 30px;
+  color: black; }
+
+.nav__logo-art {
+  font-family: "Futura-Normal", arial;
+  font-size: 10px;
+  position: absolute;
+  left: 70px;
+  top: 1px; }
+
+.titulo_populares {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  font-size: 2rem;
+  padding-bottom: 5px; }
+
+.titulos__videos {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 700;
+  font-size: 1rem;
+  padding-top: 5px;
+  width: 250px;
+  align-items: center; }
+
+.autor__datos-bajada {
+  font-family: "Futura-Normal", arial;
+  font-size: 10px;
+  text-align: center; }
+
+p {
+  font-family: "Open Sans", sans-serif;
+  font-size: 10px; }
+
+a {
+  color: black; }
+
+.bg_hero {
+  background-image: url(../img/image-banner.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 250px; }
+
+.autor__datos {
+  display: flex;
+  justify-content: center;
+  padding: 5px 0; }
+
+.autor__datos-foto {
+  width: 100px;
+  height: 100px;
+  border-radius: 100%;
+  margin: 5px; }
+
+.autor__datos-texto {
+  display: inherit;
+  flex-direction: column;
+  justify-content: center; }
+
+.autor__datos-nombre, .autor__datos-bajada {
+  margin-bottom: 0; }
+
+.btn {
+  position: absolute; }
+
+hr {
+  height: 2px;
+  background-color: #5c5b5b; }
+
+@media (min-width: 992px) {
+  .autor__datos {
+    display: flex;
+    justify-content: flex-start;
+    text-align: left;
+    margin-left: 80px; }
+    .autor__datos .botones {
+      margin-left: auto;
+      padding-right: 100px;
+      padding-top: 40px; }
+      .autor__datos .botones .autor {
+        justify-content: space-between; } }
+.btn1 {
+  background-color: #92dce5;
+  color: white;
+  font-family: "Open Sans", sans-serif;
+  border: 0;
+  font-weight: 300; }
+
+.btn2 {
+  background-color: #ef6461;
+  color: white;
+  font-family: "Open Sans", sans-serif;
+  border: 0;
+  font-weight: 300; }
+
+a {
+  color: black; }
+
+/*# sourceMappingURL=styles.css.map */

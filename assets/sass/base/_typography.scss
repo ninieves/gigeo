@@ -1,0 +1,54 @@
+.nav-link{
+    color: black;
+}
+
+
+.nav_contenedor{
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+.nav__logo{
+    font-family: $fuente1;
+    font-weight: $regular;
+    font-size: $x-large;
+    color: black;
+}
+.nav__logo-art{
+    font-family: $fuente1;
+    font-size: $small;
+    position: absolute;
+    left: 70px;
+    top:1px;
+
+}
+.titulo_populares{
+    font-family: $fuente2;
+    font-weight: $regular;
+    font-size: 2rem; 
+    padding-bottom: 5px;
+}
+.titulos__videos{
+    font-family: $fuente2;
+    font-weight: $bold;
+    font-size: 1rem; 
+    padding-top: 5px;
+    width: 250px;
+    align-items: center;
+
+
+}
+.autor__datos-bajada{
+    font-family: $fuente1;
+    font-size: $small;
+    text-align: center;
+
+}
+
+p{
+    font-family: $fuente2;
+    font-size: $small;
+}
+a{
+    color: black;
+}
